@@ -1,0 +1,82 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+.container
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.button
+{
+	position: relative;
+	align-content: center;
+	width: 500px;
+	padding: 20px;
+	margin-bottom: 10px;
+	font-size: 35px;
+	color: #15f4ee;
+	font-family: poppins;
+	font-weight: 400;
+	border: 5px solid #15f4ee;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	cursor: pointer;
+	border-radius: 100px;
+	transition: 2s;
+}
+.buttonn
+{
+	position: relative;
+	align-content: center;
+	width: 40px;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 35px;
+	color: #15f4ee;
+	font-family: poppins;
+	font-weight: 400;
+	border: 5px solid #FF0000;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	cursor: pointer;
+	border-radius: 100px;
+	transition: 2s;
+}
+.button:hover
+{
+	box-shadow: 
+	            0 5px 50px 0 #15f4ee inset,
+	            0 5px 50px 0 #15f4ee,
+	            0 5px 50px 0 #15f4ee inset,
+	            0 5px 50px 0 #15f4ee;
+	            transition: 1.5s;
+	text-shadow: 
+	            0 0 5px 0 #15f4ee,
+	            0 0 5px 0 #15f4ee;
+}
+.buttonn:hover
+{
+	box-shadow: 
+	            0 5px 50px 0 #FF0000 inset,
+	            0 5px 50px 0 #FF0000,
+	            0 5px 50px 0 #FF0000 inset,
+	            0 5px 50px 0 #FF0000;
+	            transition: 1.5s;
+	text-shadow: 
+	            0 0 5px 0 #15f4ee,
+	            0 0 5px 0 #15f4ee;
+}
+.container:hover
+{
+	box-shadow: 
+	            0 5px 50px 0 #FF0000 inset,
+	            0 5px 50px 0 #FF0000,
+	            0 5px 50px 0 #FF0000 inset,
+	            0 5px 50px 0 #FF0000;
+	            transition: 1.5s;
+}
